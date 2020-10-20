@@ -1,3 +1,6 @@
 rootProject.name = 'learnEventSourcing'
 include 'eventSourcing'
+include 'axonTrader'
+include 'axonTrader:common'
+findProject(':axonTrader:common')?.name = 'common'
 
