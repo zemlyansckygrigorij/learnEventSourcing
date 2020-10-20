@@ -1,0 +1,3 @@
+rootProject.name = 'learnEventSourcing'
+include 'eventSourcing'
+
